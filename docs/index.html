@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>minimum-phase FIR filter design  </title>
+<meta name="description" content="An approximate minimum-phase FIR filter design from specified frequency characteristic by use Hilbert transform." />
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-lg px-3 my-5 markdown-body">
+<h1>minimum-phase FIR filter design  </h1>
+
+<p>An approximate minimum-phase FIR filter design from specified frequency characteristic by use Hilbert transform.<br /></p>
+
+<p><a href="https://github.com/shun60s/Python-minimum-phase-FIR-design/">github repository</a><br /></p>
+
+
+<h2>usage  </h2>
+
+<p>python FIR-design1.py<br />
+draw frequency phase characteristic of approximate minimum-phase FIR filter from the frequency characteristic, freq_gain_table.csv.<br />
+save FIR filter coefficient to a text file.<br /></p>
+
+<h2>output sample  </h2>
+
+<p>frequency characteristic of freq_gain_table_csv<br />
+<img src="1_freq_gain_table_csv__frequency_characteristic.png" alt="figure1" ><br /></p>
+
+
+<p>frequency phase characteristic with approximate minimum phase by use Hilbert transform<br />
+<img src="2_approximate_minimum_phase_frequency_characteristic.png" alt="figure2" ><br /></p>
+
+
+<p>impulse waveform<br />
+<img src="3_impulse_waveform.png" alt="figure3" ><br /></p>
+
+
+<p>frequency phase characteristic of FIR length 44100 by use scipy.signal.freqz<br />
+<img src="4_FIR_filter_length_44100_frequency_characteristic.png" alt="figure4" ><br /></p>
+
+
+<p>frequency phase characteristic of FIR length 8253 by use scipy.signal.freqz<br />
+<img src="5_FIR_filter_length_8253_frequency_characteristic.png" alt="figure5" ><br /></p>
+
+
+<p>They are in the docs folder.<br /></p>
+
+
+<h2>requirements package  </h2>
+
+<p>python3<br />
+Please see  Check version in FIR-design1.py.<br /></p>
+
+<h2>License  </h2>
+<p>MIT<br /></p>
+</div>
+</body>
+</html>
