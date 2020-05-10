@@ -33,7 +33,7 @@ frequency phase characteristic of FIR length 8253 by use scipy.signal.freqz
 ![figure5](docs/5_FIR_filter_length_8253_frequency_characteristic.png)  
   
   
-They are in the docs folder.  
+These figures are in the docs folder.  
 
 
 ## requirements package  
