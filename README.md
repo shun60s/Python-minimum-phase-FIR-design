@@ -14,23 +14,23 @@ save FIR filter coefficient to a text file.
 ## output sample  
 
 frequency characteristic of freq_gain_table_csv  
-![figure1](doc/1_freq_gain_table_csv__frequency_characteristic.png)  
+![figure1](docs/1_freq_gain_table_csv__frequency_characteristic.png)  
 
 
 frequency phase characteristic with approximate minimum phase by use Hilbert transform  
-![figure2](doc/2_approximate_minimum_phase_frequency_characteristic.png)  
+![figure2](docs/2_approximate_minimum_phase_frequency_characteristic.png)  
 
 
 impulse waveform  
-![figure3](doc/3_impulse_waveform.png)  
+![figure3](docs/3_impulse_waveform.png)  
   
   
 frequency phase characteristic of FIR length 44100 by use scipy.signal.freqz  
-![figure4](doc/4_FIR_filter_length_44100_frequency_characteristic.png)  
+![figure4](docs/4_FIR_filter_length_44100_frequency_characteristic.png)  
   
   
 frequency phase characteristic of FIR length 8253 by use scipy.signal.freqz  
-![figure5](doc/5_FIR_filter_length_8253_frequency_characteristic.png)  
+![figure5](docs/5_FIR_filter_length_8253_frequency_characteristic.png)  
   
   
 They are in the docs folder.  
